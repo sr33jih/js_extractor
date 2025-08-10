@@ -1,0 +1,33 @@
+🚀 Features
+Fetches endpoints and parameters from HTML and JavaScript
+
+Automatically downloads external .js files linked in HTML
+
+Avoids duplicates and saves results to a file
+
+Groups findings by domain with severity scoring
+
+Optionally requests missing JS from CORS/remote hosts with custom headers
+
+Interactive UI with clickable table rows:
+
+Send to Burp Repeater
+
+Open in browser
+
+Auto-constructs URLs from partial paths
+
+🛠 Installation (in Burp Suite)
+Install Jython Standalone:
+
+Download from Jython.org
+
+In Burp: go to Extender → Options → Python Environment → select Jython standalone .jar
+
+Load the extension:
+
+Go to Extender → Extensions → Add
+
+Extension type: Python
+
+Select the js_extractor_jython.py file from this repo
